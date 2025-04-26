@@ -36,22 +36,22 @@ DATABASES = {
          'PORT': '5432',   # for PostgreSQL
 
         'NAME': 'djcrm_db',
-        'USER': 'widev',
-        'PASSWORD': 'W1D3v2o16!DB',
+        'USER': '<username>',
+        'PASSWORD': '<password>',
         'HOST': 'localhost',
     }
 }
 
 EMAIL_HOST = 'smtps.widev.it'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'info@widev.it'
-EMAIL_HOST_PASSWORD = '@W1D3v.it-N3w'
-DEFAULT_FROM_EMAIL = 'info@widev.it'
+EMAIL_HOST_USER = '<email>'
+EMAIL_HOST_PASSWORD = '<password>'
+DEFAULT_FROM_EMAIL = '<email>'
 EMAIL_SUBJECT_PREFIX = 'CRM: '
 EMAIL_USE_TLS = True
-SERVER_EMAIL = 'info@widev.it'
+SERVER_EMAIL = '<email>'
 
-ADMINS = [("<Admin1>", "<info@widev.it>")]   # specify admin
+ADMINS = [("Widev", "info@widev.it")]   # specify admin
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
