@@ -28,30 +28,30 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 DATABASES = {
     'default': {
         # for MySQl
-        'ENGINE': 'django.db.backends.mysql',
-        'PORT': '3306',
+        #'ENGINE': 'django.db.backends.mysql',
+        #'PORT': '3306',
 
         # for PostgreSQL
-        # "ENGINE": "django.db.backends.postgresql",
-        # 'PORT': '5432',   # for PostgreSQL
+         "ENGINE": "django.contrib.gis.db.backends.postgis",
+         'PORT': '5432',   # for PostgreSQL
 
-        'NAME': 'crm_db',
-        'USER': 'crm_user',
-        'PASSWORD': 'crmpass',
+        'NAME': 'djcrm_db',
+        'USER': 'widev',
+        'PASSWORD': 'W1D3v2o16!DB',
         'HOST': 'localhost',
     }
 }
 
-EMAIL_HOST = '<specify host>'   # 'smtp.example.com'
-EMAIL_HOST_PASSWORD = '<specify password>'
-EMAIL_HOST_USER = 'crm@example.com'
+EMAIL_HOST = 'smtps.widev.it'
 EMAIL_PORT = 587
+EMAIL_HOST_USER = 'info@widev.it'
+EMAIL_HOST_PASSWORD = '@W1D3v.it-N3w'
+DEFAULT_FROM_EMAIL = 'info@widev.it'
 EMAIL_SUBJECT_PREFIX = 'CRM: '
 EMAIL_USE_TLS = True
-SERVER_EMAIL = 'crm@example.com'
-DEFAULT_FROM_EMAIL = 'crm@example.com'
+SERVER_EMAIL = 'info@widev.it'
 
-ADMINS = [("<Admin1>", "<admin1_box@example.com>")]   # specify admin
+ADMINS = [("<Admin1>", "<info@widev.it>")]   # specify admin
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -59,7 +59,7 @@ DEBUG = True
 FORMS_URLFIELD_ASSUME_HTTPS = True
 
 # Internationalization
-LANGUAGE_CODE = 'en'
+LANGUAGE_CODE = 'it'
 LANGUAGES = [
     ('ar', 'Arabic'),
     ('cs', 'Czech'),
@@ -85,7 +85,7 @@ LANGUAGES = [
     ('zh-hans', 'Chinese'),
 ]
 
-TIME_ZONE = 'UTC'   # specify your time zone
+TIME_ZONE = 'Europe/Rome'  # specify your time zone
 
 USE_I18N = True
 
