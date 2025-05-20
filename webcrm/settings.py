@@ -196,9 +196,9 @@ SECURE_HSTS_PRELOAD = False
 
 # For more security, replace the url prefixes
 # with your own unique value.
-SECRET_CRM_PREFIX = '123/'
-SECRET_ADMIN_PREFIX = '456-admin/'
-SECRET_LOGIN_PREFIX = '789-login/'
+SECRET_CRM_PREFIX = 'djcrm/'
+SECRET_ADMIN_PREFIX = 'djcrm-admin/'
+SECRET_LOGIN_PREFIX = 'djcrm-login/'
 
 # Specify ip of host to avoid importing emails sent by CRM
 CRM_IP = "127.0.0.1"
@@ -285,9 +285,9 @@ MARK_PAYMENTS_THROUGH_REP = False
 
 
 # Site headers
-SITE_TITLE = 'CRM'
+SITE_TITLE = 'DJCRM'
 ADMIN_HEADER = "ADMIN"
-ADMIN_TITLE = "CRM Admin"
+ADMIN_TITLE = "DJCRM Admin"
 INDEX_TITLE = _('Main Menu')
 
 
