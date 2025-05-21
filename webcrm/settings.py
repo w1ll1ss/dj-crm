@@ -31,7 +31,7 @@ DEBUG = os.environ.get('DEBUG')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # Add your hosts to the list.
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['djcrm.widev.it', 'localhost', '127.0.0.1']
 
 # Database
 DATABASES = {
