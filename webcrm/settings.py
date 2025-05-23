@@ -196,7 +196,7 @@ SECURE_HSTS_PRELOAD = True
 
 # For more security, replace the url prefixes
 # with your own unique value.
-SECRET_CRM_PREFIX = 'djcrm'
+SECRET_CRM_PREFIX = ''
 SECRET_ADMIN_PREFIX = 'djcrm-admin/'
 SECRET_LOGIN_PREFIX = 'djcrm-login/'
 
