@@ -186,10 +186,10 @@ SITE_ID = 1
 SECURE_HSTS_SECONDS = 0  # set to 31536000 for production server
 # Set all the following to True for production server
 SECURE_HSTS_INCLUDE_SUBDOMAINS = False
-SECURE_SSL_REDIRECT = False
-SESSION_COOKIE_SECURE = False
-CSRF_COOKIE_SECURE = False
-SECURE_HSTS_PRELOAD = False
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_HSTS_PRELOAD = True
 
 
 # ---- CRM settings ---- #
